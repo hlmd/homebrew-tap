@@ -2,28 +2,28 @@
 class RedisInsightChinese < Formula
   desc "Redis Insight 桌面端非官方汉化工具(与 Redis Ltd. 无关)"
   homepage "https://github.com/hlmd/redis-insight-chinese"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hlmd/redis-insight-chinese/releases/download/v0.3.0/redis-insight-chinese-macos-arm64.tar.xz"
-      sha256 "1ea52fadfc806c0a3f6e5087241b21313e546418d5c23699c5d0504d2038dd95"
+      url "https://github.com/hlmd/redis-insight-chinese/releases/download/v0.3.1/redis-insight-chinese-macos-arm64.tar.xz"
+      sha256 "519d9e8c2c59f8fda7720f5f37b0cf8a4e92f87812edfa1e52f20f4ee030af85"
     end
     on_intel do
-      url "https://github.com/hlmd/redis-insight-chinese/releases/download/v0.3.0/redis-insight-chinese-macos-x64.tar.xz"
-      sha256 "4d0ad22d045bb8db6a9320f871d6c092a1039d522dfd7b242b331ff87e3163c1"
+      url "https://github.com/hlmd/redis-insight-chinese/releases/download/v0.3.1/redis-insight-chinese-macos-x64.tar.xz"
+      sha256 "c71fa6c720f1e713cc4bdb4cb75acb7dd85b4b61c53341939ff1cbca328381e1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hlmd/redis-insight-chinese/releases/download/v0.3.0/redis-insight-chinese-linux-arm64.tar.xz"
-      sha256 "abcfe19a8771559ffa8a8a6435e0cdf14fd1b2970ab196f9ab6bd20101b50f25"
+      url "https://github.com/hlmd/redis-insight-chinese/releases/download/v0.3.1/redis-insight-chinese-linux-arm64.tar.xz"
+      sha256 "968822aba246ca39b0352936f9cdf0be99ac8c7598ac9d789b78d3e54a9343c9"
     end
     on_intel do
-      url "https://github.com/hlmd/redis-insight-chinese/releases/download/v0.3.0/redis-insight-chinese-linux-x64.tar.xz"
-      sha256 "e7e1278030efcd80cc6c9f7e59abafde87cfa7dd500d4af29d86633d96c9b71a"
+      url "https://github.com/hlmd/redis-insight-chinese/releases/download/v0.3.1/redis-insight-chinese-linux-x64.tar.xz"
+      sha256 "a496a143e379558475fb7b710106ac89fb919e25c9cdd69e22ff1166b30067ed"
     end
   end
 
