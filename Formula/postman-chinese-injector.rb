@@ -2,28 +2,28 @@
 class PostmanChineseInjector < Formula
   desc "Postman 桌面端非官方汉化工具(与 Postman, Inc. 无关)"
   homepage "https://github.com/hlmd/postman-chinese-injector"
-  version "1.10.0"
+  version "1.11.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.10.0/postman-chinese-injector-macos-arm64.tar.xz"
-      sha256 "77532b6ca0319588c764f3fb448d7d761279ecd8dbd35d2019d7aa72c96c7314"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.0/postman-chinese-injector-macos-arm64.tar.xz"
+      sha256 "39a37325ee17ccd0d4d32336c161ca07474305946bcc514365e687854a720c67"
     end
     on_intel do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.10.0/postman-chinese-injector-macos-x64.tar.xz"
-      sha256 "1f284335453ba82bb4c8f930372e0c09646af034258040b69a2b09d33ea3661a"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.0/postman-chinese-injector-macos-x64.tar.xz"
+      sha256 "252fde5d1e172e359e4bfbd6ad400059c6a4ec00a1939f7fa667bd5bb462ca00"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.10.0/postman-chinese-injector-linux-arm64.tar.xz"
-      sha256 "f0d8215c3a61b7671b76b53d68dc018855de33907488831a0fc9668c77bfa1ae"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.0/postman-chinese-injector-linux-arm64.tar.xz"
+      sha256 "cd6cfc7db79026b497fa78003b2c3b90a7fdcf27d734292ef9e24f1eb507c422"
     end
     on_intel do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.10.0/postman-chinese-injector-linux-x64.tar.xz"
-      sha256 "56ef334faabb476c4e91da60a56d5118507e3ad687aea406c29e572e01db3672"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.0/postman-chinese-injector-linux-x64.tar.xz"
+      sha256 "8682e050e4f2ebff9b85b7b75f23161e13d8c1f89e4dbdb3cce5c13b5720fd59"
     end
   end
 
