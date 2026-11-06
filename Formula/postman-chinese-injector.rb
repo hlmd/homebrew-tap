@@ -2,28 +2,28 @@
 class PostmanChineseInjector < Formula
   desc "Postman 桌面端非官方汉化工具(与 Postman, Inc. 无关)"
   homepage "https://github.com/hlmd/postman-chinese-injector"
-  version "1.9.0"
+  version "1.10.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.9.0/postman-chinese-injector-macos-arm64.tar.xz"
-      sha256 "3ba8857cc21b9f04e3dd87967f757537e7c18c36b6bee79100f679e5f8a9c8cf"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.10.0/postman-chinese-injector-macos-arm64.tar.xz"
+      sha256 "77532b6ca0319588c764f3fb448d7d761279ecd8dbd35d2019d7aa72c96c7314"
     end
     on_intel do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.9.0/postman-chinese-injector-macos-x64.tar.xz"
-      sha256 "1d119147938cd213fd9a9f1177c2a7c426b73a5b70059dfd5dac79972aceb3ae"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.10.0/postman-chinese-injector-macos-x64.tar.xz"
+      sha256 "1f284335453ba82bb4c8f930372e0c09646af034258040b69a2b09d33ea3661a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.9.0/postman-chinese-injector-linux-arm64.tar.xz"
-      sha256 "01d85f7454c9347b6effb6080c0d17cbae12665ed1b245e5ce6a21468af7dc86"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.10.0/postman-chinese-injector-linux-arm64.tar.xz"
+      sha256 "f0d8215c3a61b7671b76b53d68dc018855de33907488831a0fc9668c77bfa1ae"
     end
     on_intel do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.9.0/postman-chinese-injector-linux-x64.tar.xz"
-      sha256 "185d7ba5905f4c0d68d6824859e5517088ced1e9d08f451f68bc81c28cd1baf0"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.10.0/postman-chinese-injector-linux-x64.tar.xz"
+      sha256 "56ef334faabb476c4e91da60a56d5118507e3ad687aea406c29e572e01db3672"
     end
   end
 
