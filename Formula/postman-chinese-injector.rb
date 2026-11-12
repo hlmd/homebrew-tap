@@ -2,28 +2,28 @@
 class PostmanChineseInjector < Formula
   desc "Postman 桌面端非官方汉化工具(与 Postman, Inc. 无关)"
   homepage "https://github.com/hlmd/postman-chinese-injector"
-  version "1.11.0"
+  version "1.11.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.0/postman-chinese-injector-macos-arm64.tar.xz"
-      sha256 "39a37325ee17ccd0d4d32336c161ca07474305946bcc514365e687854a720c67"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.1/postman-chinese-injector-macos-arm64.tar.xz"
+      sha256 "13731486bae604de7f5f215cdb7aa0529b1d17c6c204e822e146a818273befa1"
     end
     on_intel do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.0/postman-chinese-injector-macos-x64.tar.xz"
-      sha256 "252fde5d1e172e359e4bfbd6ad400059c6a4ec00a1939f7fa667bd5bb462ca00"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.1/postman-chinese-injector-macos-x64.tar.xz"
+      sha256 "d54764218a157d16561cae56d6ebee4928ea1e31be713de27129dcb9dee45848"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.0/postman-chinese-injector-linux-arm64.tar.xz"
-      sha256 "cd6cfc7db79026b497fa78003b2c3b90a7fdcf27d734292ef9e24f1eb507c422"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.1/postman-chinese-injector-linux-arm64.tar.xz"
+      sha256 "f9a3712218c1eb25beec2eb6457408fb7beafa99d90d2f4ae8111d40c067606c"
     end
     on_intel do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.0/postman-chinese-injector-linux-x64.tar.xz"
-      sha256 "8682e050e4f2ebff9b85b7b75f23161e13d8c1f89e4dbdb3cce5c13b5720fd59"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.1/postman-chinese-injector-linux-x64.tar.xz"
+      sha256 "a0c96142298efd1705ba3f0761708b175e527c9c9313383e419e1174b68d877b"
     end
   end
 
