@@ -2,28 +2,28 @@
 class PostmanChineseInjector < Formula
   desc "Postman 桌面端非官方汉化工具(与 Postman, Inc. 无关)"
   homepage "https://github.com/hlmd/postman-chinese-injector"
-  version "1.11.1"
+  version "1.11.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.1/postman-chinese-injector-macos-arm64.tar.xz"
-      sha256 "13731486bae604de7f5f215cdb7aa0529b1d17c6c204e822e146a818273befa1"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.2/postman-chinese-injector-macos-arm64.tar.xz"
+      sha256 "21f1410e453d189eb57f86933873b37efe5d99bdb9856fd5ef9b4b00a5294122"
     end
     on_intel do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.1/postman-chinese-injector-macos-x64.tar.xz"
-      sha256 "d54764218a157d16561cae56d6ebee4928ea1e31be713de27129dcb9dee45848"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.2/postman-chinese-injector-macos-x64.tar.xz"
+      sha256 "28ca793a80f907cb436f1cbdfd20bda2812c34b803475103d8fe8d1c821fba7c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.1/postman-chinese-injector-linux-arm64.tar.xz"
-      sha256 "f9a3712218c1eb25beec2eb6457408fb7beafa99d90d2f4ae8111d40c067606c"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.2/postman-chinese-injector-linux-arm64.tar.xz"
+      sha256 "a11ae7f4329ceb26b8d1be60a7783a7da4f386501e8476a4384f4a93dfcdd1ec"
     end
     on_intel do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.1/postman-chinese-injector-linux-x64.tar.xz"
-      sha256 "a0c96142298efd1705ba3f0761708b175e527c9c9313383e419e1174b68d877b"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.2/postman-chinese-injector-linux-x64.tar.xz"
+      sha256 "a785d4ef774c9159ca3efd78a6f40977164c54dff8b1c621b1ef0d03ad7ff7e6"
     end
   end
 
