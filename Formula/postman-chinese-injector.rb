@@ -2,28 +2,28 @@
 class PostmanChineseInjector < Formula
   desc "Postman 桌面端非官方汉化工具(与 Postman, Inc. 无关)"
   homepage "https://github.com/hlmd/postman-chinese-injector"
-  version "1.11.2"
+  version "1.11.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.2/postman-chinese-injector-macos-arm64.tar.xz"
-      sha256 "21f1410e453d189eb57f86933873b37efe5d99bdb9856fd5ef9b4b00a5294122"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.3/postman-chinese-injector-macos-arm64.tar.xz"
+      sha256 "21c1f67479414f13f1ed687ba95e83f2f5e0774825a824c3c2881cc00354abcb"
     end
     on_intel do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.2/postman-chinese-injector-macos-x64.tar.xz"
-      sha256 "28ca793a80f907cb436f1cbdfd20bda2812c34b803475103d8fe8d1c821fba7c"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.3/postman-chinese-injector-macos-x64.tar.xz"
+      sha256 "2aa95431ef692af7a576e6ea658530e3bcdac7d104a162a94e931f0c3d84c5d1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.2/postman-chinese-injector-linux-arm64.tar.xz"
-      sha256 "a11ae7f4329ceb26b8d1be60a7783a7da4f386501e8476a4384f4a93dfcdd1ec"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.3/postman-chinese-injector-linux-arm64.tar.xz"
+      sha256 "26030b7b9287ad02f445dab021637e485117f6f3e246220e9bf510b6948100f9"
     end
     on_intel do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.2/postman-chinese-injector-linux-x64.tar.xz"
-      sha256 "a785d4ef774c9159ca3efd78a6f40977164c54dff8b1c621b1ef0d03ad7ff7e6"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.3/postman-chinese-injector-linux-x64.tar.xz"
+      sha256 "4039d3e667fdd8f133027bbffcefd0726a1a17e1af6056bbd7194886e0d2dc44"
     end
   end
 
