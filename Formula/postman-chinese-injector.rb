@@ -2,28 +2,28 @@
 class PostmanChineseInjector < Formula
   desc "Postman 桌面端非官方汉化工具(与 Postman, Inc. 无关)"
   homepage "https://github.com/hlmd/postman-chinese-injector"
-  version "1.11.3"
+  version "1.11.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.3/postman-chinese-injector-macos-arm64.tar.xz"
-      sha256 "21c1f67479414f13f1ed687ba95e83f2f5e0774825a824c3c2881cc00354abcb"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.4/postman-chinese-injector-macos-arm64.tar.xz"
+      sha256 "17da90158493f023bd48ebbff144983b1f1af40ac9cb3432868d331dd94d8011"
     end
     on_intel do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.3/postman-chinese-injector-macos-x64.tar.xz"
-      sha256 "2aa95431ef692af7a576e6ea658530e3bcdac7d104a162a94e931f0c3d84c5d1"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.4/postman-chinese-injector-macos-x64.tar.xz"
+      sha256 "73bf2b23a54fc9240e444dcc5b98606a92eb7781e4cdf5771e92b23597683d74"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.3/postman-chinese-injector-linux-arm64.tar.xz"
-      sha256 "26030b7b9287ad02f445dab021637e485117f6f3e246220e9bf510b6948100f9"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.4/postman-chinese-injector-linux-arm64.tar.xz"
+      sha256 "f9d7750b2a35222d593193a53280a1fa911f222247b8c418bd0abb1080b8f739"
     end
     on_intel do
-      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.3/postman-chinese-injector-linux-x64.tar.xz"
-      sha256 "4039d3e667fdd8f133027bbffcefd0726a1a17e1af6056bbd7194886e0d2dc44"
+      url "https://github.com/hlmd/postman-chinese-injector/releases/download/v1.11.4/postman-chinese-injector-linux-x64.tar.xz"
+      sha256 "9c64c234e9873ef5c33f2cbff6408ce014f4221710b8190335dfeba58f16f3e1"
     end
   end
 
